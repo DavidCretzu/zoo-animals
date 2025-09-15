@@ -1,13 +1,20 @@
 package model;
 
 public abstract class Animal {
-    private int numberOfLegs;
+    private int numberOfMembers;
     private String name;
 
     public String getName(){
         return name;
     }
-    public int number_of_legs(){
-        return numberOfLegs;
+    public int getNumberOfMembers() {
+        return numberOfMembers;
+    }
+
+    public void setNumberOfMembers(int numberOfMembers) {
+        this.numberOfMembers = numberOfMembers;
+    }
+    public void setName(String name){
+        this.name = name;
     }
 }
