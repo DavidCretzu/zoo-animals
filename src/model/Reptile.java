@@ -10,7 +10,6 @@ public class Reptile extends Animal {
     public boolean getShell(){
         return this.shell;
     }
-
     public void setScales(boolean scales){
         this.scales = scales;
     }
