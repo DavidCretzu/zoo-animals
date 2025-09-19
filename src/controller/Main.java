@@ -10,14 +10,14 @@ public class Main {
 
         SpeciesFactory mammalFactory = animalFactory.getSpeciesFactory("Mammal");
         Animal tiger = mammalFactory.getAnimal(Animals.Mammal.TIGER);
-        System.out.println("Created a " + tiger.getName());
+        System.out.println("Created " + tiger.getName());
 
         SpeciesFactory fishFactory = animalFactory.getSpeciesFactory("Fish");
         Animal pike = fishFactory.getAnimal(Animals.Aquatic.PIKE);
-        System.out.println("Created a " + pike.getName());
+        System.out.println("Created" + pike.getName());
 
         SpeciesFactory reptileFactory = animalFactory.getSpeciesFactory("Reptile");
         Animal salamander = reptileFactory.getAnimal(Animals.Reptile.SALAMANDER);
-        System.out.println("Created a " + salamander.getName());
+        System.out.println("Created " + salamander.getName());
     }
 }

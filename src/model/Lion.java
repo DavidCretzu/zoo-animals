@@ -14,6 +14,4 @@ public class Lion extends Mammal{
         this.setNumberOfMembers(numberOfMembers);
         this.setPeriodOfGestation(periodOfGestation);
     }
-
-
 }
